@@ -10,5 +10,5 @@ A small Python AI project for university
 - [pywhatkit](https://pypi.org/project/pywhatkit/)
 - [gTTS](https://pypi.org/project/gTTS/)
 - appkit. which is from PyGObject, which requires PyCairo, which in turn requires cairo installed
-  -- Cairo comes with Glade or Gtk+ when installed as a dependency for both
-  -- Configuring gtk for python here: https://www.geeksforgeeks.org/how-to-install-pygtk-in-python-on-windows/
+  - Cairo comes with Glade or Gtk+ when installed as a dependency for both. [Link](http://gladewin32.sourceforge.net/)
+  - Configuring gtk for python [here](https://www.geeksforgeeks.org/how-to-install-pygtk-in-python-on-windows/)
