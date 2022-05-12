@@ -1,0 +1,90 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hey",
+        "Hello",
+        "Hi",
+        "Good day",
+        "What's up",
+        "Hi there",
+        "Heyo"
+      ],
+      "responses": ["Good day to you too.", "Howdy.", "Hello"]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "What's your name",
+        "What are you called",
+        "How do I call you",
+        "Introduce yourself",
+        "Who are you"
+      ],
+      "responses": [
+        "I am Burt",
+        "My name is Burt. I am a virtual assistant.",
+        "I'm a virtual assistant. My friends call me Burt but you can call me tonight."
+      ]
+    },
+    {
+      "tag": "search",
+      "patterns": ["I want to search", "Search", "Find me something"],
+      "responses": [""]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it",
+        "What time is it now",
+        "What's the time",
+        "What's the time now",
+        "Tell me the time",
+        "Tell me the current time",
+        "Time"
+      ],
+      "responses": [""]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "What day is it",
+        "What day is it today",
+        "What date is it",
+        "What date is it today",
+        "What's the date",
+        "What's the date today",
+        "What's the day",
+        "What's the day today",
+        "Tell me the date",
+        "Tell me the day",
+        "Day",
+        "Date"
+      ],
+      "responses": [""]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather",
+        "What's the weather like",
+        "What's the weather like today",
+        "Tell me the weather",
+        "Tell me the weather outside",
+        "Weather"
+      ],
+      "responses": [""]
+    },
+    {
+      "tag": "play",
+      "patterns": ["Play", "Play me"],
+      "responses": [""]
+    },
+    {
+      "tag": "exit",
+      "patterns": ["Bye", "Exit", "Stop", "Quit", "See you", "See ya", "Cya"],
+      "responses": ["Goodbye", "Cya", "Arrividerci", "Bye"]
+    }
+  ]
+}
